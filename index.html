@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>gsforu — Generate your stack. Own the code.</title>
+  <meta name="description" content="gsforu helps you generate real, exportable code you fully control. Stop renting tools. Start owning your software." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Nav -->
+  <nav class="border-b border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="text-xl font-bold tracking-tight">gsforu</a>
+      <div class="flex items-center gap-6 text-sm font-medium">
+        <a href="#why" class="text-gray-600 hover:text-black">Why</a>
+        <a href="#training" class="text-gray-600 hover:text-black">Training</a>
+        <a href="#compare" class="text-gray-600 hover:text-black">Compare</a>
+        <a href="https://github.com/dadportal/gsforu" target="_blank" class="text-gray-600 hover:text-black">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="max-w-5xl mx-auto px-6 pt-20 pb-16 text-center">
+    <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+      Generate your full stack.<br/>
+      Own every line.<br/>
+      <span class="text-gray-500">Ship under your name.</span>
+    </h1>
+    <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-10">
+      Most AI tools build apps <em>for</em> you.<br/>
+      gsforu helps you generate real, exportable code you fully control.
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="#training" class="inline-flex items-center justify-center px-6 py-3 rounded-lg bg-black text-white font-medium hover:bg-gray-800 transition">
+        Start Learning
+      </a>
+      <a href="https://github.com/dadportal/gsforu" target="_blank" class="inline-flex items-center justify-center px-6 py-3 rounded-lg border border-gray-300 font-medium hover:bg-gray-50 transition">
+        View on GitHub
+      </a>
+    </div>
+  </section>
+
+  <!-- Why -->
+  <section id="why" class="bg-gray-50 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 py-20">
+      <h2 class="text-3xl font-bold mb-4">Why gsforu exists</h2>
+      <p class="text-lg text-gray-600 mb-10 max-w-2xl">
+        AI app builders are powerful — but many keep you locked inside their platform.
+        When you want to change something deep, scale, or sell the product, you hit a wall.
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-xl border border-gray-200">
+          <h3 class="font-semibold text-lg mb-2">Generate, Don’t Just Build</h3>
+          <p class="text-gray-600">Describe what you want. gsforu guides you to generate a real tech stack — frontend, backend, database, auth — that you can actually own and modify.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-gray-200">
+          <h3 class="font-semibold text-lg mb-2">Full Code Ownership</h3>
+          <p class="text-gray-600">Every project you create can be exported. No lock-in. No “you can only edit inside our platform.” You get the code. You decide what happens next.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-gray-200">
+          <h3 class="font-semibold text-lg mb-2">Rebuild & Release</h3>
+          <p class="text-gray-600">Want to change the design system? Add a new feature? Turn it into a SaaS? Because you own the code, you can rebuild and release it under your own name.</p>
+        </div>
+        <div class="bg-white p-6 rounded-xl border border-gray-200">
+          <h3 class="font-semibold text-lg mb-2">Learn the Stack While You Build</h3>
+          <p class="text-gray-600">We don’t hide how things work. You learn which tools are used and why — so you become better at building, not just better at prompting.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training -->
+  <section id="training" class="max-w-5xl mx-auto px-6 py-20">
+    <h2 class="text-3xl font-bold mb-4">Training: Generate Your Own Stack</h2>
+    <p class="text-lg text-gray-600 mb-10 max-w-2xl">
+      This is the core of gsforu. Instead of only using ready-made builders, we teach you how to generate and own a complete stack.
+    </p>
+
+    <div class="space-y-6">
+      <div class="flex gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-black text-white flex items-center justify-center font-semibold text-sm">1</div>
+        <div>
+          <h3 class="font-semibold">Start with a clear product idea</h3>
+          <p class="text-gray-600">Write what the product should do in plain language.</p>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-black text-white flex items-center justify-center font-semibold text-sm">2</div>
+        <div>
+          <h3 class="font-semibold">Generate the base with strong AI tools</h3>
+          <p class="text-gray-600">Use tools that output real, exportable code (Cursor, Claude, bolt.diy, Dyad, Lovable, etc.).</p>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-black text-white flex items-center justify-center font-semibold text-sm">3</div>
+        <div>
+          <h3 class="font-semibold">Export the full code</h3>
+          <p class="text-gray-600">Download the complete project. Never leave it trapped inside a platform.</p>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-black text-white flex items-center justify-center font-semibold text-sm">4</div>
+        <div>
+          <h3 class="font-semibold">Run it locally</h3>
+          <p class="text-gray-600">Open in VS Code or Cursor and run on your own computer.</p>
+        </div>
+      </div>
+      <div class="flex gap-4">
+        <div class="flex-shrink-0 w-8 h-8 rounded-full bg-black text-white flex items-center justify-center font-semibold text-sm">5</div>
+        <div>
+          <h3 class="font-semibold">Improve and release under your name</h3>
+          <p class="text-gray-600">Customize, add features, connect your own database and domain, then ship.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Compare -->
+  <section id="compare" class="bg-gray-50 border-y border-gray-100">
+    <div class="max-w-5xl mx-auto px-6 py-20">
+      <h2 class="text-3xl font-bold mb-10">gsforu vs Regular AI App Builders</h2>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-gray-200">
+              <th class="py-3 pr-4 font-semibold">Feature</th>
+              <th class="py-3 pr-4 font-semibold">Typical AI Builders</th>
+              <th class="py-3 font-semibold">gsforu Approach</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-700">
+            <tr class="border-b border-gray-100">
+              <td class="py-3 pr-4">Code ownership</td>
+              <td class="py-3 pr-4">Often limited</td>
+              <td class="py-3 font-medium text-black">Full ownership</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <td class="py-3 pr-4">Export full project</td>
+              <td class="py-3 pr-4">Sometimes restricted</td>
+              <td class="py-3 font-medium text-black">Always encouraged</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <td class="py-3 pr-4">Run locally</td>
+              <td class="py-3 pr-4">Rarely</td>
+              <td class="py-3 font-medium text-black">Designed for local use</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <td class="py-3 pr-4">Rebuild & customize</td>
+              <td class="py-3 pr-4">Hard</td>
+              <td class="py-3 font-medium text-black">Easy and expected</td>
+            </tr>
+            <tr class="border-b border-gray-100">
+              <td class="py-3 pr-4">Release under your name</td>
+              <td class="py-3 pr-4">Difficult</td>
+              <td class="py-3 font-medium text-black">Core goal</td>
+            </tr>
+            <tr>
+              <td class="py-3 pr-4">Long-term control</td>
+              <td class="py-3 pr-4">Platform-dependent</td>
+              <td class="py-3 font-medium text-black">You stay in control</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="mt-8 text-lg text-gray-600">
+        <strong>Bottom line:</strong> Most tools help you <em>use</em> a builder.<br/>
+        gsforu helps you <em>generate and own</em> the result.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="max-w-5xl mx-auto px-6 py-12 text-center text-gray-500 text-sm">
+    <p class="mb-2 font-medium text-gray-900">gsforu</p>
+    <p>Generate your stack. Own the code. Ship under your name.</p>
+    <p class="mt-4">
+      <a href="https://github.com/dadportal/gsforu" target="_blank" class="underline hover:text-black">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
